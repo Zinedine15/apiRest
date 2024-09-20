@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_URL = "https://xxxxxxxxxxxxxxxxxxx.mockapi.io/api/v1/IoTCarStatus"
+API_URL = "https://66eb02f255ad32cda47b5715.mockapi.io/IoTCarStatus"
 
 # Obtener todos los registros
 @app.route('/status', methods=['GET'])
